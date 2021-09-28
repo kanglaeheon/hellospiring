@@ -10,7 +10,7 @@
 	<form action="<%= request.getContextPath() %>/user/join" method="POST">
 		<input type="text" name="name" placeholder="이름" />
 		<input type="text" name="email" placeholder="이메일" />
-		<input type="text" name="password" placeholder="패스워드" />
+		<input type="password" name="password" placeholder="패스워드" />
 		
 		<input type="submit" value="가입" />
 	</form>
